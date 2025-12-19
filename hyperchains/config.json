@@ -5,7 +5,7 @@
             "key": "creator-chain",
             "name": "Creator Chain Testnet",
             "rpcUrl": "https://zksync-os-testnet-creator.zksync.dev",
-            "blockExplorerUrl": "",
+            "blockExplorerUrl": "https://block-explorer.zksync-os-testnet-creator.zksync.dev",
             "blockExplorerApi": "https://block-explorer-api.zksync-os-testnet-creator.zksync.dev",
             "displaySettings": {
                 "isTestnet": true
@@ -19,6 +19,12 @@
                     "symbol": "ETH",
                     "decimals": 18
                 },
+                "blockExplorers": {
+                    "default": {
+                      "name": "Etherscan Sepolia",
+                      "url": "https://sepolia.etherscan.io"
+                    }
+                  },
                 "rpcUrls": {
                     "default": {
                         "http": [
