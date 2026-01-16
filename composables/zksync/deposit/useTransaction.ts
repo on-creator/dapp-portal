@@ -1,4 +1,4 @@
-import { createEthersClient, createEthersSdk } from "@dutterbutter/zksync-sdk/ethers";
+import { createEthersClient, createEthersSdk } from "@matterlabs/zksync-js/ethers";
 import { readContract, writeContract } from "@wagmi/core";
 import { type BigNumberish } from "ethers";
 import { zeroAddress, type Address, type Hash } from "viem";
@@ -127,11 +127,6 @@ export default (getL1Signer: () => Promise<L1Signer | undefined>) => {
           amount: BigInt(transaction.amount?.toString()),
           l2GasLimit: fee.l2GasLimit,
           gasPerPubdata: fee.gasPerPubdata,
-          l1TxOverrides: {
-            gasLimit: fee.l1GasLimit,
-            maxFeePerGas: fee.maxFeePerGas,
-            maxPriorityFeePerGas: fee.maxPriorityFeePerGas,
-          },
         });
 
         const depositResponse = {
