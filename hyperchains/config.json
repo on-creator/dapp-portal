@@ -1,8 +1,58 @@
 [
     {
         "network": {
+            "id": 2787,
+            "key": "mainnet",
+            "name": "Creator Chain Mainet",
+            "rpcUrl": "",
+            "blockExplorerUrl": "",
+            "blockExplorerApi": "",
+            "displaySettings": {
+                "isTestnet": true
+            },
+            "l1Network": {
+                "id": 1,
+                "name": "Ethereum",
+                "network": "Ethereum",
+                "nativeCurrency": {
+                    "name": "Ether",
+                    "symbol": "ETH",
+                    "decimals": 18
+                },
+                "blockExplorers": {
+                    "default": {
+                      "name": "Etherscan",
+                      "url": "https://etherscan.io"
+                    }
+                  },
+                "rpcUrls": {
+                    "default": {
+                        "http": [
+                            "https://ethereum-rpc.publicnode.com"
+                        ]
+                    },
+                    "public": {
+                        "http": [
+                            "https://ethereum-rpc.publicnode.com"
+                        ]
+                    }
+                }
+            }
+        },
+        "tokens": [
+            {
+                "address": "0x000000000000000000000000000000000000800A",
+                "l1Address": "0x0000000000000000000000000000000000000001",
+                "symbol": "ETH",
+                "decimals": 18,
+                "iconUrl": "/img/eth.svg"
+            }
+        ]
+    },
+    {
+        "network": {
             "id": 278701,
-            "key": "creator-chain",
+            "key": "testnet",
             "name": "Creator Chain Testnet",
             "rpcUrl": "https://zksync-os-testnet-creator.zksync.dev",
             "blockExplorerUrl": "https://block-explorer.zksync-os-testnet-creator.zksync.dev",
