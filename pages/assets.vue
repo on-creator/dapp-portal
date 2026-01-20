@@ -29,16 +29,6 @@
               </template>
               <template #default>Receive</template>
             </CommonButton>
-            <CommonButton
-              variant="primary"
-              as="RouterLink"
-              :to="{ name: eraNetwork.l1Network ? 'send-methods' : 'send' }"
-            >
-              <template #icon>
-                <ArrowUpRightIcon aria-hidden="true" />
-              </template>
-              <template #default>Send</template>
-            </CommonButton>
           </CommonButtonGroup>
         </div>
       </CommonContentBlock>
@@ -52,7 +42,7 @@
         </TypographyCategoryLabel>
         <CommonCardWithLineButtons>
           <template v-if="loading">
-            <TokenBalanceLoader v-for="index in 2" :key="index" send-route-name />
+            <TokenBalanceLoader v-for="index in 2" :key="index" />
           </template>
           <div v-else-if="balanceError">
             <CommonErrorBlock @try-again="fetch">
@@ -64,7 +54,6 @@
               v-for="item in displayedBalances"
               :key="item.address"
               as="div"
-              :send-route-name="eraNetwork.l1Network ? 'send-methods' : 'send'"
               v-bind="item"
             />
           </template>
@@ -125,7 +114,6 @@ import {
   ArrowDownLeftIcon,
   ArrowsUpDownIcon,
   ArrowTopRightOnSquareIcon,
-  ArrowUpRightIcon,
   BanknotesIcon,
   QrCodeIcon,
 } from "@heroicons/vue/24/outline";

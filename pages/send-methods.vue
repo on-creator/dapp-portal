@@ -3,14 +3,6 @@
     <PageTitle :fallback-route="{ name: 'assets' }">Send</PageTitle>
 
     <div class="space-y-4">
-      <CommonCardWithLineButtons size="sm">
-        <DestinationItem
-          v-bind="destinations.era"
-          :label="`Send to another account on ${destinations.era.label}`"
-          as="RouterLink"
-          :to="{ name: 'send', query: $route.query }"
-        />
-      </CommonCardWithLineButtons>
       <CommonCardWithLineButtons>
         <DestinationItem
           v-if="eraNetwork.l1Network"
