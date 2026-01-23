@@ -4,11 +4,11 @@
             "id": 2787,
             "key": "mainnet",
             "name": "Creator Chain Mainet",
-            "rpcUrl": "",
-            "blockExplorerUrl": "",
-            "blockExplorerApi": "",
+            "rpcUrl": "https://zksync-os-mainnet-creator.zksync.dev",
+            "blockExplorerUrl": "https://block-explorer.zksync-os-mainnet-creator.zksync.dev",
+            "blockExplorerApi": "https://block-explorer-api.zksync-os-mainnet-creator.zksync.dev",
             "displaySettings": {
-                "isTestnet": true
+                "isTestnet": false
             },
             "l1Network": {
                 "id": 1,
@@ -42,7 +42,7 @@
         "tokens": [
             {
                 "address": "0x000000000000000000000000000000000000800A",
-                "l1Address": "0x0000000000000000000000000000000000000001",
+                "l1Address": "0x0000000000000000000000000000000000000000",
                 "symbol": "ETH",
                 "decimals": 18,
                 "iconUrl": "/img/eth.svg"
