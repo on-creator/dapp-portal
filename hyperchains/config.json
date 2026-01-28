@@ -4,9 +4,9 @@
             "id": 2787,
             "key": "mainnet",
             "name": "Creator Chain Mainet",
-            "rpcUrl": "https://zksync-os-mainnet-creator.zksync.dev",
-            "blockExplorerUrl": "https://block-explorer.zksync-os-mainnet-creator.zksync.dev",
-            "blockExplorerApi": "https://block-explorer-api.zksync-os-mainnet-creator.zksync.dev",
+            "rpcUrl": "https://rpc.mainnet.oncreator.com",
+            "blockExplorerUrl": "https://explorer.mainnet.oncreator.com",
+            "blockExplorerApi": "https://explorer-api.mainnet.oncreator.com",
             "displaySettings": {
                 "isTestnet": false
             },
@@ -52,11 +52,11 @@
     {
         "network": {
             "id": 278701,
-            "key": "testnet",
+            "key": "creator-chain",
             "name": "Creator Chain Testnet",
-            "rpcUrl": "https://zksync-os-testnet-creator.zksync.dev",
-            "blockExplorerUrl": "https://block-explorer.zksync-os-testnet-creator.zksync.dev",
-            "blockExplorerApi": "https://block-explorer-api.zksync-os-testnet-creator.zksync.dev",
+            "rpcUrl": "https://rpc.testnet.oncreator.com",
+            "blockExplorerUrl": "https://explorer.testnet.oncreator.com",
+            "blockExplorerApi": "https://explorer-api.testnet.oncreator.com",
             "displaySettings": {
                 "isTestnet": true
             },
