@@ -1,62 +1,12 @@
 [
     {
         "network": {
-            "id": 2787,
-            "key": "mainnet",
-            "name": "Creator Chain Mainet",
-            "rpcUrl": "https://zksync-os-mainnet-creator.zksync.dev",
-            "blockExplorerUrl": "https://block-explorer.zksync-os-mainnet-creator.zksync.dev",
-            "blockExplorerApi": "https://block-explorer-api.zksync-os-mainnet-creator.zksync.dev",
-            "displaySettings": {
-                "isTestnet": false
-            },
-            "l1Network": {
-                "id": 1,
-                "name": "Ethereum",
-                "network": "Ethereum",
-                "nativeCurrency": {
-                    "name": "Ether",
-                    "symbol": "ETH",
-                    "decimals": 18
-                },
-                "blockExplorers": {
-                    "default": {
-                      "name": "Etherscan",
-                      "url": "https://etherscan.io"
-                    }
-                  },
-                "rpcUrls": {
-                    "default": {
-                        "http": [
-                            "https://ethereum-rpc.publicnode.com"
-                        ]
-                    },
-                    "public": {
-                        "http": [
-                            "https://ethereum-rpc.publicnode.com"
-                        ]
-                    }
-                }
-            }
-        },
-        "tokens": [
-            {
-                "address": "0x000000000000000000000000000000000000800A",
-                "l1Address": "0x0000000000000000000000000000000000000000",
-                "symbol": "ETH",
-                "decimals": 18,
-                "iconUrl": "/img/eth.svg"
-            }
-        ]
-    },
-    {
-        "network": {
             "id": 278701,
             "key": "creator-chain",
             "name": "Creator Chain Testnet",
-            "rpcUrl": "https://zksync-os-testnet-creator.zksync.dev",
-            "blockExplorerUrl": "https://block-explorer.zksync-os-testnet-creator.zksync.dev",
-            "blockExplorerApi": "https://block-explorer-api.zksync-os-testnet-creator.zksync.dev",
+            "rpcUrl": "https://rpc.testnet.oncreator.com",
+            "blockExplorerUrl": "https://explorer.testnet.oncreator.com",
+            "blockExplorerApi": "https://explorer-api.testnet.oncreator.com",
             "displaySettings": {
                 "isTestnet": true
             },
@@ -93,6 +43,56 @@
             {
                 "address": "0x000000000000000000000000000000000000800A",
                 "l1Address": "0x0000000000000000000000000000000000000001",
+                "symbol": "ETH",
+                "decimals": 18,
+                "iconUrl": "/img/eth.svg"
+            }
+        ]
+    },
+    {
+        "network": {
+            "id": 2787,
+            "key": "mainnet",
+            "name": "Creator Chain Mainet",
+            "rpcUrl": "https://rpc.mainnet.oncreator.com",
+            "blockExplorerUrl": "https://explorer.mainnet.oncreator.com",
+            "blockExplorerApi": "https://explorer-api.mainnet.oncreator.com",
+            "displaySettings": {
+                "isTestnet": false
+            },
+            "l1Network": {
+                "id": 1,
+                "name": "Ethereum",
+                "network": "Ethereum",
+                "nativeCurrency": {
+                    "name": "Ether",
+                    "symbol": "ETH",
+                    "decimals": 18
+                },
+                "blockExplorers": {
+                    "default": {
+                      "name": "Etherscan",
+                      "url": "https://etherscan.io"
+                    }
+                  },
+                "rpcUrls": {
+                    "default": {
+                        "http": [
+                            "https://ethereum-rpc.publicnode.com"
+                        ]
+                    },
+                    "public": {
+                        "http": [
+                            "https://ethereum-rpc.publicnode.com"
+                        ]
+                    }
+                }
+            }
+        },
+        "tokens": [
+            {
+                "address": "0x000000000000000000000000000000000000800A",
+                "l1Address": "0x0000000000000000000000000000000000000000",
                 "symbol": "ETH",
                 "decimals": 18,
                 "iconUrl": "/img/eth.svg"
