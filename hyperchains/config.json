@@ -3,7 +3,7 @@
         "network": {
             "id": 2787,
             "key": "mainnet",
-            "name": "Creator Chain Mainet",
+            "name": "Creator Chain Mainnet",
             "rpcUrl": "https://rpc.mainnet.oncreator.com",
             "blockExplorerUrl": "https://explorer.mainnet.oncreator.com",
             "blockExplorerApi": "https://explorer-api.mainnet.oncreator.com",
